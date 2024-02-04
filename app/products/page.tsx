@@ -135,11 +135,11 @@ function pages() {
     },
   ];
   
-  const mergedData = [...food, ...cloth, ...pharmaceuticals];
+  const showProducts = [...food, ...cloth, ...pharmaceuticals];
   
   
 
-  const [showProducts, setshowProducts] = useState(mergedData)
+  
 
 
   return (
@@ -152,7 +152,7 @@ function pages() {
       <div className="flex justify-center flex-wrap gap-9 ">
         {
           showProducts.map(e => {
-            return <ProductCard title={e.name} des={""} imageUrl={e.image} footer={e.tag}/>
+            return <ProductCard key={e.name} title={e.name} des={""} imageUrl={e.image} footer={e.tag}/>
           })
         }
       </div>
@@ -163,7 +163,7 @@ function pages() {
 const ProductCard = ({ title, des, imageUrl, footer }: any) => {
   return (
     <div key={title}>
-      <Card className="min-w-[300px]">
+      <Card key={title} className="min-w-[300px]">
         <CardHeader>
           <CardTitle>{title}</CardTitle>
           <CardDescription>{des}</CardDescription>

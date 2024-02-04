@@ -87,7 +87,7 @@ const Stories = () => {
               <div className="max-w-[600px]">
                 <h1 className="text-5xl font-bold">Customer-Centric Energy:</h1>
                 <p className="font-lg mt-3">
-                  Our customer focus is not just a philosophy; it's a way of
+                  Our customer focus is not just a philosophy; it{"'"}s a way of
                   life at Benifexim. We thrive on understanding and living with
                   the energy of our customers, constantly adapting to their
                   needs and speed. As your strong and reliable partner, customer

@@ -26,10 +26,10 @@ function page() {
         </p>
         <p>
           At Benifexim, we recognize the significance of each shipment in
-          shaping global experiences. Whether it's nourishing lives with
+          shaping global experiences. Whether it{"'"}s nourishing lives with
           top-tier food products, adorning the world with fashionable clothing,
           or contributing to healthcare through pharmaceutical exports, our
-          mission remains unwavering – to enrich lives globally by consistently
+          mission remains unwavering {"-"} to enrich lives globally by consistently
           delivering products of the utmost quality.
         </p>
         <p>
